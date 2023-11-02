@@ -6,7 +6,7 @@ const RootLayout = ({ children }: { children: JSX.Element }) => {
   return (
     <div className="site-wrap" id="home-section">
       <Header />
-      <div>{children}</div>
+      <div className="container" style={{minHeight: '100vh'}}>{children}</div>
       <Footer />
     </div>
   );
