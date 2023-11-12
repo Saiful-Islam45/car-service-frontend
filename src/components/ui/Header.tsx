@@ -50,16 +50,22 @@ const Header = () => {
             <li>
               <Link
                 href="/"
-                className="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded md:bg-transparent md:text-purple-600 md:p-0 dark:text-white md:dark:text-purple-500"
+                className="block py-2 pl-3 pr-4 text-white bg-[#ff4d30] rounded md:bg-transparent md:text-[#ff4d30] md:p-0 dark:text-white md:dark:text-purple-500"
               >
                 Home
               </Link>
             </li>
-            <Link href={"/pc-builder"}>
+            {/* <Link href={"/pc-builder"}>
               <span className="px-4 py-1 border border-purple-200 rounded-full text-purple-600 font-bold hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">
                 PC Builder
               </span>
-            </Link>
+            </Link> */}
+            <Link href="/about">
+                About Us
+              </Link>
+              <Link href="/team">
+              Our Team
+              </Link>
             {/* {session?.user ? ( */}
               <li
                 className="cursor-pointer block py-2 md:py-0 pl-3 pr-4"

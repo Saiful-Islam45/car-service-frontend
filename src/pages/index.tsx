@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import RootLayout from '../components/layouts/RootLayout';
 import Hero from '@/components/ui/Hero';
+import BookCar from '@/components/ui/SearchCar';
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <BookCar/>
       <Hero />
     </>
   );
